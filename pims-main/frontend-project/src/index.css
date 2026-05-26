@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Print styles for reports */
+@media print {
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  .print\:hidden {
+    display: none !important;
+  }
+}
