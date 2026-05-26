@@ -51,7 +51,11 @@ export default function Login() {
         >
           Login
         </button>
-
+      
+       <p className="text-sm text-center mt-4 text-gray-600">
+          Don't have an account?{' '}
+          <Link to="/register" className="text-gray-900 font-medium underline">Register</Link>
+        </p>
        
       </form>
     </div>
